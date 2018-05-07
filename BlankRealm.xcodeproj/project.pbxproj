@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		354E45EB209A98B3004A9460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E45EA209A98B3004A9460 /* AppDelegate.swift */; };
-		354E45ED209A98B3004A9460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E45EC209A98B3004A9460 /* ViewController.swift */; };
 		354E45F0209A98B3004A9460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E45EE209A98B3004A9460 /* Main.storyboard */; };
 		354E45F2209A98B4004A9460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354E45F1209A98B4004A9460 /* Assets.xcassets */; };
 		354E45F5209A98B4004A9460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E45F3209A98B4004A9460 /* LaunchScreen.storyboard */; };
@@ -16,13 +15,17 @@
 		35D3A0C3209FFC0500DF19CC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0BF209FFC0500DF19CC /* Helpers.swift */; };
 		35D3A0C4209FFC0500DF19CC /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0C0209FFC0500DF19CC /* Util.swift */; };
 		35D3A0C5209FFC0500DF19CC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0C1209FFC0500DF19CC /* Article.swift */; };
+		35D3A0C7209FFD0900DF19CC /* ObservingAnObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0C6209FFD0900DF19CC /* ObservingAnObjectViewController.swift */; };
+		35D3A0C920A002A000DF19CC /* ObservingACollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0C820A002A000DF19CC /* ObservingACollectionViewController.swift */; };
+		35D3A0CB20A005FA00DF19CC /* CollectionChangesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0CA20A005FA00DF19CC /* CollectionChangesViewController.swift */; };
+		35D3A0CD20A028EA00DF19CC /* AvoidNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0CC20A028EA00DF19CC /* AvoidNotificationViewController.swift */; };
+		35D3A0CF20A02A8000DF19CC /* EntireRealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0CE20A02A8000DF19CC /* EntireRealmViewController.swift */; };
 		728039B92CEECCED57461AA6 /* Pods_BlankRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61464EA7287C109766F3F083 /* Pods_BlankRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		354E45E7209A98B3004A9460 /* BlankRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlankRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354E45EA209A98B3004A9460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		354E45EC209A98B3004A9460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		354E45EF209A98B3004A9460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		354E45F1209A98B4004A9460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		354E45F4209A98B4004A9460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +34,11 @@
 		35D3A0BF209FFC0500DF19CC /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		35D3A0C0209FFC0500DF19CC /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		35D3A0C1209FFC0500DF19CC /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		35D3A0C6209FFD0900DF19CC /* ObservingAnObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingAnObjectViewController.swift; sourceTree = "<group>"; };
+		35D3A0C820A002A000DF19CC /* ObservingACollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingACollectionViewController.swift; sourceTree = "<group>"; };
+		35D3A0CA20A005FA00DF19CC /* CollectionChangesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionChangesViewController.swift; sourceTree = "<group>"; };
+		35D3A0CC20A028EA00DF19CC /* AvoidNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidNotificationViewController.swift; sourceTree = "<group>"; };
+		35D3A0CE20A02A8000DF19CC /* EntireRealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntireRealmViewController.swift; sourceTree = "<group>"; };
 		61464EA7287C109766F3F083 /* Pods_BlankRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlankRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ED9E70EC53CC3C7499848D /* Pods-BlankRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlankRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlankRealm/Pods-BlankRealm.release.xcconfig"; sourceTree = "<group>"; };
 		DC213B9B3278F9D697C4687B /* Pods-BlankRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlankRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlankRealm/Pods-BlankRealm.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				354E45EA209A98B3004A9460 /* AppDelegate.swift */,
-				354E45EC209A98B3004A9460 /* ViewController.swift */,
+				35D3A0C6209FFD0900DF19CC /* ObservingAnObjectViewController.swift */,
+				35D3A0C820A002A000DF19CC /* ObservingACollectionViewController.swift */,
+				35D3A0CA20A005FA00DF19CC /* CollectionChangesViewController.swift */,
+				35D3A0CC20A028EA00DF19CC /* AvoidNotificationViewController.swift */,
+				35D3A0CE20A02A8000DF19CC /* EntireRealmViewController.swift */,
 				354E45EE209A98B3004A9460 /* Main.storyboard */,
 				354E45F1209A98B4004A9460 /* Assets.xcassets */,
 				354E45F3209A98B4004A9460 /* LaunchScreen.storyboard */,
@@ -223,10 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D3A0C2209FFC0500DF19CC /* Person.swift in Sources */,
-				354E45ED209A98B3004A9460 /* ViewController.swift in Sources */,
+				35D3A0C7209FFD0900DF19CC /* ObservingAnObjectViewController.swift in Sources */,
 				35D3A0C5209FFC0500DF19CC /* Article.swift in Sources */,
 				35D3A0C4209FFC0500DF19CC /* Util.swift in Sources */,
+				35D3A0CB20A005FA00DF19CC /* CollectionChangesViewController.swift in Sources */,
+				35D3A0CF20A02A8000DF19CC /* EntireRealmViewController.swift in Sources */,
+				35D3A0CD20A028EA00DF19CC /* AvoidNotificationViewController.swift in Sources */,
 				354E45EB209A98B3004A9460 /* AppDelegate.swift in Sources */,
+				35D3A0C920A002A000DF19CC /* ObservingACollectionViewController.swift in Sources */,
 				35D3A0C3209FFC0500DF19CC /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
