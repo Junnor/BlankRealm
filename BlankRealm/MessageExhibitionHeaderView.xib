@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="MessageExhibitionHeaderView" id="tvn-q0-XJX" customClass="MessageExhibitionHeaderView" customModule="MessageApp_MessagesExtension" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="看漫展啊看漫展" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVZ-xs-dgM">
+                    <rect key="frame" x="15" y="18" width="345" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dVZ-xs-dgM" secondAttribute="trailing" constant="15" id="TtK-YR-ain"/>
+                <constraint firstItem="dVZ-xs-dgM" firstAttribute="leading" secondItem="tvn-q0-XJX" secondAttribute="leading" constant="15" id="kMA-OS-2OE"/>
+                <constraint firstItem="dVZ-xs-dgM" firstAttribute="centerY" secondItem="tvn-q0-XJX" secondAttribute="centerY" id="qzl-cT-TVO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="1He-dT-kfb"/>
+            <connections>
+                <outlet property="titleLabel" destination="dVZ-xs-dgM" id="Kq5-k1-8pm"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>
