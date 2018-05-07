@@ -29,12 +29,12 @@
 import Foundation
 
 public class Example {
-  public static var beforeEach: (()->Void)? = nil
+  public static var beforeEach: (() -> ())? = nil
 
-  public static func of(_ description: String, action: ()->Void) {
+  public static func of(_ description: String, action: (() -> ())? = nil) {
     beforeEach?()
     printHeader(description)
-    action()
+    action?()
   }
 
   private static func printHeader(_ message: String) {

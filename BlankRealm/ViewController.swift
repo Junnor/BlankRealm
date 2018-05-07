@@ -10,12 +10,23 @@ import UIKit
 import RealmSwift
 
 class ViewController: UIViewController {
-
+    
+    func test() {
+        Example.of("Observing an Object")
+        
+        //: **Setup Realm**
+        let configuration = Realm.Configuration(inMemoryIdentifier: "TemporaryRealm")
+        let realm = try! Realm(configuration: configuration)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.cyan
+        
+        test()
     }
-
+    
 }
 
