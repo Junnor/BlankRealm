@@ -14,7 +14,6 @@
 		354E45F5209A98B4004A9460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E45F3209A98B4004A9460 /* LaunchScreen.storyboard */; };
 		35D3A0B0209FF8DE00DF19CC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0AC209FF8DE00DF19CC /* Person.swift */; };
 		35D3A0B1209FF8DE00DF19CC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0AD209FF8DE00DF19CC /* Helpers.swift */; };
-		35D3A0B2209FF8DE00DF19CC /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0AE209FF8DE00DF19CC /* Util.swift */; };
 		35D3A0B3209FF8DE00DF19CC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D3A0AF209FF8DE00DF19CC /* Article.swift */; };
 		728039B92CEECCED57461AA6 /* Pods_BlankRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61464EA7287C109766F3F083 /* Pods_BlankRealm.framework */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		354E45F6209A98B4004A9460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D3A0AC209FF8DE00DF19CC /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		35D3A0AD209FF8DE00DF19CC /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		35D3A0AE209FF8DE00DF19CC /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		35D3A0AF209FF8DE00DF19CC /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		61464EA7287C109766F3F083 /* Pods_BlankRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlankRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ED9E70EC53CC3C7499848D /* Pods-BlankRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlankRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlankRealm/Pods-BlankRealm.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			children = (
 				35D3A0AC209FF8DE00DF19CC /* Person.swift */,
 				35D3A0AD209FF8DE00DF19CC /* Helpers.swift */,
-				35D3A0AE209FF8DE00DF19CC /* Util.swift */,
 				35D3A0AF209FF8DE00DF19CC /* Article.swift */,
 			);
 			path = Sources;
@@ -225,7 +222,6 @@
 				35D3A0B0209FF8DE00DF19CC /* Person.swift in Sources */,
 				354E45ED209A98B3004A9460 /* ViewController.swift in Sources */,
 				35D3A0B3209FF8DE00DF19CC /* Article.swift in Sources */,
-				35D3A0B2209FF8DE00DF19CC /* Util.swift in Sources */,
 				354E45EB209A98B3004A9460 /* AppDelegate.swift in Sources */,
 				35D3A0B1209FF8DE00DF19CC /* Helpers.swift in Sources */,
 			);
