@@ -19,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // 1
-        var config = Realm.Configuration()
-        config.deleteRealmIfMigrationNeeded = true
-        Realm.Configuration.defaultConfiguration = config
+//        var config = Realm.Configuration()
+//        config.deleteRealmIfMigrationNeeded = true
+//        Realm.Configuration.defaultConfiguration = config
 
         // 2
         SyncManager.shared.logLevel = .off
